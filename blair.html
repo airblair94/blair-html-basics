@@ -1,0 +1,81 @@
+<head>
+    <title>Blair's page</title>
+    <style>
+        #bold-text-tag {
+            color: red;
+        }
+        /* .list-tag { 
+            color: gold;
+            font-size: larger;
+            background-color: blue;
+        } */
+
+        ol .every-other {
+            color: coral;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        #header-section {
+            background-color: pink;
+            text-align: center;
+        }
+
+        #header-section h1 {
+            color: blue;
+        }
+        #form-section {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+    <script>
+        function submitFunction() {
+            alert('Hello')
+        }
+    </script>
+</head>
+<body>
+    <div id="header-section">
+        <h1>Blair</h1>
+        <h6>smallest</h6>
+        <h2>Smaller Header</h2>
+        <p><b>Hi</b> my name is Blair </p>
+    </div>
+    <div>
+        <ul>
+            <li>stuff</li>
+            <li>more stuff</li>
+        </ul>
+        <p id="bold-text-tag"><b>bold text</b></p>
+    </div>
+    <div>
+        <ol>
+            <li class="list-tag">item one</li>
+            <li class="every-other">item two</li>
+            <li class="list-tag">item two</li>
+            <li class="every-other">item two</li>
+            <li class="list-tag">item two</li>
+            <li class="list-tag">item two</li>
+        </ol>
+    </div>
+    <form id="form-section" action="submitFunction">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" />
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="last name" />
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" max="100" min="20" />
+        <button on></button>>
+    </form>
+    <!-- <a href="https://google.com">Link to google</a> -->
+
+    <!-- <table>
+        <tr><th>Days</th><th>Weather</th>
+        <tr><td>Monday</td><td>snow</td></tr>
+        <tr><td>Tuesday</td><td>snow</td></tr>
+        <tr><td>Wednesday</td><td>snow</td></tr>
+    </table> -->
+</body>
